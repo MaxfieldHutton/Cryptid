@@ -70,6 +70,7 @@ local dropshot = {
 		end
 	end,
 }
+
 local happyhouse = {
 	object_type = "Joker",
 	name = "cry-happyhouse",
@@ -127,6 +128,7 @@ local happyhouse = {
 		end
 	end,
 }
+
 local maximized = {
 	object_type = "Joker",
 	name = "cry-Maximized",
@@ -136,6 +138,7 @@ local maximized = {
 	cost = 11,
 	atlas = "atlastwo",
 }
+
 local potofjokes = {
 	object_type = "Joker",
 	name = "cry-Pot of Jokes",
@@ -173,6 +176,7 @@ local potofjokes = {
 		G.hand:change_size(-card.ability.extra.h_size)
 	end,
 }
+
 local queensgambit = {
 	object_type = "Joker",
 	name = "cry-Queen's Gambit",
@@ -217,6 +221,7 @@ local queensgambit = {
 		end
 	end,
 }
+
 local wee_fib = {
 	object_type = "Joker",
 	name = "cry-Wee Fibonacci",
@@ -257,6 +262,7 @@ local wee_fib = {
 		end
 	end,
 }
+
 local whip = {
 	object_type = "Joker",
 	name = "cry-The WHIP",
@@ -320,6 +326,7 @@ local whip = {
 		end
 	end,
 }
+
 local lucky_joker = {
 	object_type = "Joker",
 	name = "cry-Lucky Joker",
@@ -349,6 +356,7 @@ local lucky_joker = {
 		end
 	end,
 }
+
 local cursor = {
 	object_type = "Joker",
 	name = "cry-Cursor",
@@ -392,6 +400,7 @@ local cursor = {
 		end
 	end,
 }
+
 local pickle = {
 	object_type = "Joker",
 	name = "cry-Pickle",
@@ -484,6 +493,7 @@ local pickle = {
 		end
 	end,
 }
+
 local cube = {
 	object_type = "Joker",
 	name = "cry-Cube",
@@ -537,6 +547,7 @@ local triplet_rhythm = {
 		end
 	end,
 }
+
 local booster = {
 	object_type = "Joker",
 	name = "cry-Booster Joker",
@@ -564,6 +575,7 @@ local booster = {
 		G.GAME.modifiers.cry_booster_packs = G.GAME.modifiers.cry_booster_packs - card.ability.extra.booster_slots
 	end,
 }
+
 local chili_pepper = {
 	object_type = "Joker",
 	name = "cry-Chili Pepper",
@@ -637,6 +649,7 @@ local chili_pepper = {
 		end
 	end,
 }
+
 local compound_interest = {
 	object_type = "Joker",
 	name = "cry-Compound Interest",
@@ -684,6 +697,7 @@ local big_cube = {
 		end
 	end,
 }
+
 local eternalflame = {
 	object_type = "Joker",
 	name = "cry-eternalflame",
@@ -724,6 +738,7 @@ local eternalflame = {
 		end
 	end,
 }
+
 local nice = {
 	object_type = "Joker",
 	name = "cry-Nice",
@@ -758,6 +773,7 @@ local nice = {
 		end
 	end,
 }
+
 local seal_the_deal = {
 	object_type = "Joker",
 	name = "cry-Seal The Deal",
@@ -794,6 +810,7 @@ local seal_the_deal = {
 		end
 	end,
 }
+
 local chad = {
 	object_type = "Joker",
 	name = "cry-Chad",
@@ -822,6 +839,7 @@ local chad = {
 		end
 	end,
 }
+
 local jimball = {
 	object_type = "Joker",
 	name = "cry-Jimball",
@@ -860,6 +878,7 @@ local jimball = {
 	end,
 	atlas = "jimball",
 }
+
 local jimball_sprite = { --left this one on it's own atlas for obvious reasons
 	object_type = "Atlas",
 	key = "jimball",
@@ -867,6 +886,7 @@ local jimball_sprite = { --left this one on it's own atlas for obvious reasons
 	px = 71,
 	py = 95,
 }
+
 local sus = {
 	object_type = "Joker",
 	name = "cry-SUS",
@@ -956,6 +976,7 @@ local sus = {
 		end
 	end,
 }
+
 local fspinner = {
 	object_type = "Joker",
 	name = "cry-fspinner",
@@ -997,6 +1018,7 @@ local fspinner = {
 	end,
 	atlas = "atlasone",
 }
+
 local luigi = {
 	object_type = "Joker",
 	name = "cry-luigi",
@@ -1029,6 +1051,7 @@ local luigi = {
 	end,
 	atlas = "atlasthree",
 }
+
 local waluigi = {
 	object_type = "Joker",
 	name = "cry-Waluigi",
@@ -1060,6 +1083,7 @@ local waluigi = {
 	end,
 	atlas = "atlastwo",
 }
+
 local mario = {
 	object_type = "Joker",
 	name = "cry-mario",
@@ -1085,6 +1109,7 @@ local mario = {
 		end
 	end,
 }
+
 local wario = {
 	object_type = "Joker",
 	name = "cry-wario",
@@ -1121,6 +1146,7 @@ local wario = {
 	blueprint_compat = true,
 	atlas = "atlasthree",
 }
+
 local krustytheclown = {
 	object_type = "Joker",
 	name = "cry-krustytheclown",
@@ -1157,6 +1183,7 @@ local krustytheclown = {
 		end
 	end,
 }
+
 local blurred = {
 	object_type = "Joker",
 	name = "cry-blurred Joker",
@@ -1180,6 +1207,7 @@ local blurred = {
 		end
 	end,
 }
+
 local gardenfork = {
 	object_type = "Joker",
 	name = "cry-gardenfork",
@@ -1208,6 +1236,7 @@ local gardenfork = {
 		end
 	end,
 }
+
 local lightupthenight = {
 	object_type = "Joker",
 	name = "cry-lightupthenight",
@@ -1234,6 +1263,7 @@ local lightupthenight = {
 		end
 	end,
 }
+
 local nosound = {
 	object_type = "Joker",
 	name = "cry-nosound",
@@ -1262,6 +1292,7 @@ local nosound = {
 		end
 	end,
 }
+
 local antennastoheaven = {
 	object_type = "Joker",
 	name = "cry-antennastoheaven",
@@ -1302,6 +1333,7 @@ local antennastoheaven = {
 		end
 	end,
 }
+
 local hunger = {
 	object_type = "Joker",
 	name = "cry-hunger",
@@ -1326,6 +1358,7 @@ local hunger = {
 		end
 	end,
 }
+
 local weegaming = {
 	object_type = "Joker",
 	name = "cry-weegaming",
@@ -1354,6 +1387,7 @@ local weegaming = {
 		end
 	end,
 }
+
 local redbloon = {
 	object_type = "Joker",
 	name = "cry-redbloon",
@@ -1418,6 +1452,7 @@ local redbloon = {
 		end
 	end,
 }
+
 local apjoker = {
 	object_type = "Joker",
 	name = "cry-AP Joker",
@@ -1441,6 +1476,7 @@ local apjoker = {
 		end
 	end,
 }
+
 local maze = {
 	object_type = "Joker",
 	name = "cry-maze",
@@ -1482,6 +1518,7 @@ local maze = {
 		G.GAME.current_round.discards_used = 0
 	end,
 }
+
 --Fixed Jank for the most part. Other modded jokers may still be jank depending on how they are implemented
 --funny side effect of this fix causes trading card and dna to juice up like craaazy lol
 local panopticon = {
@@ -1510,6 +1547,7 @@ local panopticon = {
 		end
 	end,
 }
+
 local magnet = {
 	object_type = "Joker",
 	name = "cry-magnet",
@@ -1531,6 +1569,7 @@ local magnet = {
 		end
 	end,
 }
+
 local unjust_dagger = {
 	object_type = "Joker",
 	name = "cry-Unjust Dagger",
@@ -4548,6 +4587,20 @@ local fractal = {
 	end,
 }
 
+local elementjoker = {
+	object_type = "Joker",
+	name = "cry-ElementJoker",
+	key = "element",
+	atlas = "atlasthree"
+	pos = { x = 1, y = 5},
+	config = { extra = 2 },
+	rarity = 2,
+	cost = 6,
+	loc_vars = function(self, info_queue, center)
+		return { vars = { center.ability.extra } }
+	end
+}
+
 local miscitems =  {
 	jimball_sprite,
 	dropshot,
@@ -4634,6 +4687,7 @@ local miscitems =  {
 	savvy,
 	subtle,
 	discreet,
+	elementjoker
 }
 if Cryptid.enabled["Misc."] then
 	miscitems[#miscitems+1] = flipside

@@ -791,6 +791,14 @@ return {
                     "a {C:attention}#2#"
                 }
             },
+            j_cry_element = {
+                name = "Element Joker",
+                text = {
+                    "{C:chips}+#1#{} Chips if played",
+                    "hand contains",
+                    "a {C:attention}#2#"
+                }
+            },
             j_cry_doodlem = {
                 name = "Doodle M",
                 text = {
